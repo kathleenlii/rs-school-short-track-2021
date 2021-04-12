@@ -19,9 +19,9 @@ function getCommonCharacterCount(s1, s2) {
         res++;
         arrS2.splice(j, 1);
         break;
-      };
-    };
-  };
+      }
+    }
+  }
   return res;
 }
 
